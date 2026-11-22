@@ -1,0 +1,13 @@
+# Large raw/source data — regenerate with src/download_data.py + src/clean_data.py
+data/raw/*
+data/processed/retail_clean.csv
+
+# Keep the small processed tables committed so the Streamlit Cloud app works out of the box
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+*.log
+.streamlit/secrets.toml

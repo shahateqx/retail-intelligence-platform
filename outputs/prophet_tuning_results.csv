@@ -1,0 +1,17 @@
+seasonality_mode,seasonality_prior_scale,holidays_prior_scale,changepoint_prior_scale,rmse
+multiplicative,5,10,0.01,13937.4
+multiplicative,5,5,0.01,13937.4
+multiplicative,10,5,0.01,13944.2
+multiplicative,10,10,0.01,13944.2
+additive,5,5,0.01,14066.5
+additive,5,10,0.01,14066.5
+additive,10,10,0.01,14082.9
+additive,10,5,0.01,14082.9
+additive,5,5,0.05,14156.3
+additive,5,10,0.05,14156.3
+additive,10,10,0.05,14186.7
+additive,10,5,0.05,14186.7
+multiplicative,10,5,0.05,14570.8
+multiplicative,10,10,0.05,14570.8
+multiplicative,5,10,0.05,14625.8
+multiplicative,5,5,0.05,14625.8
